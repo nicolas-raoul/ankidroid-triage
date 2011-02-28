@@ -30,6 +30,9 @@ handlers:
 - url: /crash_receiver.*
   script: receive_ankicrashes.py
 
+- url: /feedback_receiver.*
+  script: receive_feedback.py
+
 - url: /.*
   script: report_ankicrashes.py
 
